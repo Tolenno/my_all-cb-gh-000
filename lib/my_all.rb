@@ -7,7 +7,7 @@ def my_all?(collection)
     return_value << yield(collection[i])
     i += 1
   end
-  return_value.include?(false)
+  return_value.include?(false) ? false : true
 end
 
 1. initiate variable i to use as counter
