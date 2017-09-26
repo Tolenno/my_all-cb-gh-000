@@ -7,11 +7,5 @@ def my_all?(collection)
     return_value << yield(collection[i]) #yield collection to block and store in return_value variable
     i += 1
   end
-  return_value.include?(false) ? false : true
+  return_value.include?(false) ? false : true #return true/false depending if all are true/false
 end
-
-1. 
-2. 
-3. 
-4. index += 1
-5. return true/false
